@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>말랑떡 생존기 개인정보처리방침</title><style>
+:root { --bg:#fffaf7; --fg:#1d1b20; --sub:#6b6470; --accent:#e0458f; --line:#eee3ea; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#17151a; --fg:#f2eef4; --sub:#a59fab; --accent:#ff7ab6; --line:#2c2830; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg);
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px 80px; }
+h1 { font-size: 28px; line-height: 1.3; margin: 0 0 8px; }
+h2 { font-size: 19px; margin: 36px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+p, li { color: var(--fg); }
+ul, ol { padding-left: 22px; }
+a { color: var(--accent); word-break: break-all; }
+.sub { color: var(--sub); }
+nav { margin-bottom: 28px; font-size: 14px; }
+nav a { margin-right: 14px; }
+</style></head>
+<body><main>
+<nav><a href="/mallang-ddeok/">말랑떡 생존기</a><a href="/mallang-ddeok/privacy/">개인정보처리방침</a></nav>
+<h1>말랑떡 생존기 개인정보처리방침</h1>
+<p>시행일: 2026년 10월 20일</p>
+<p>김재중(이하 「운영자」)은 「말랑떡 생존기」 앱과 웹 게임(이하 「게임」) 이용자의 개인정보를 「개인정보 보호법」 등 관련 법령에 따라 처리합니다. 게임은 이메일·이름·전화번호·프로필 사진을 받지 않습니다.</p>
+
+<h2>1. 처리하는 개인정보와 목적</h2>
+<p>게스트로 시작해도 처음 기록을 낼 때 서버에 계정 번호가 만들어집니다. 아래 정보는 운영자의 게임 서버(Cloudflare)에 저장됩니다.</p>
+<ul>
+<li><strong>계정 번호</strong>: 서버가 무작위로 만든 번호와 게스트 여부. 목적: 기록·순위·저장을 계정에 묶기.</li>
+<li><strong>소셜 로그인 식별자</strong>: Apple·Google·카카오로 로그인하면 그 서비스가 주는 이용자 고유 번호만 받습니다(요청 범위 <code>openid</code>). 이메일·이름은 요청하지 않습니다. Apple 로그인은 계정 삭제 때 연결을 끊기 위한 토큰을 함께 보관합니다. 목적: 로그인, 다른 기기에서 이어 하기.</li>
+<li><strong>닉네임</strong>: 서버가 지은 기본 이름 또는 이용자가 직접 지은 이름. 순위표에 공개됩니다. 다른 이용자의 닉네임을 신고하면 신고한 계정·신고받은 계정·그때의 닉네임·시각이 남습니다. 목적: 순위표 표시, 부적절한 이름 관리.</li>
+<li><strong>게임 기록</strong>: 판마다 스테이지·캐릭터·생존 시간·처치 수·레벨·점수·클리어 여부·시드·플랫폼·앱 버전, 순위표 최고 기록. 목적: 순위표, 부정 기록 걸러내기.</li>
+<li><strong>저장 데이터</strong>: 골드·영구 강화·도감·해금 등 게임 진행. 소리·진동 설정은 기기에만 둡니다. 목적: 기기 사이 동기화.</li>
+<li><strong>다이아·결제 기록</strong>: 다이아 잔액과 얻고 쓴 내역, 가진 떡·스킨. 앱에서 결제하면 스토어 거래 번호·상품·가격·통화·스토어 국가·구매 및 환불 시각. 결제는 Apple(App Store)·Google(Google Play)이 처리하며 카드 번호 등 결제 수단 정보는 받지 않습니다. 목적: 구매한 다이아 지급, 환불 처리, 중복 지급 방지, 문의 응대.</li>
+<li><strong>로그인 세션</strong>: 로그인 유지 토큰의 해시값과 만료 시각. 목적: 로그인 유지, 도용 감지.</li>
+<li><strong>접속 정보</strong>: 짧은 시간에 요청을 몰아 보내는 것을 막으려고 IP 주소를 알아볼 수 없게 바꾼 값(해시)과 요청 횟수를 셉니다. IP 주소 원문은 저장하지 않습니다.</li>
+</ul>
+<p class="sub">기기 안에는 위 저장 데이터와 설정, 로그인 상태가 함께 저장됩니다(브라우저 저장소 또는 앱 저장 공간).</p>
+
+<h2>2. 광고(Google AdMob)</h2>
+<p>iOS·Android 앱에는 보상형 광고만 있습니다. 이용자가 「광고 보고 골드 2배」·「광고 보고 받기」·광고 부활을 직접 누를 때만 광고를 불러옵니다. 배너·전면 광고는 없고, 웹 게임에는 광고가 없습니다.</p>
+<ul>
+<li class="sub">처리하는 정보: 광고 식별자(iOS IDFA는 추적을 허용한 경우에만, Android 광고 ID), 기기·OS 정보, IP 주소와 이를 바탕으로 한 대략적 위치, 광고 노출·클릭 기록, 오류·성능 진단 정보.</li>
+<li class="sub">「광고 보고 받기」로 다이아를 받을 때는 보상이 실제로 끝났는지 확인하려고 Google이 운영자 서버에 계정 번호와 보상 확인 정보를 보냅니다.</li>
+<li class="sub">목적: 광고 제공·측정, 부정 클릭 방지, 광고 보상 지급.</li>
+<li class="sub">동의: 법령상 동의가 필요한 지역(유럽경제지역·영국 등)에서는 첫 광고 전에 Google 동의 화면으로 맞춤 광고 동의를 묻습니다. iOS에서는 첫 광고 전에 앱 추적 허용 여부를 묻고, 허용하지 않아도 광고 보상은 똑같이 받을 수 있습니다.</li>
+<li class="sub">변경 방법: iOS 「설정 › 개인정보 보호 및 보안 › 추적」, Android 「설정 › Google › 광고」(또는 「설정 › 개인정보 보호 › 광고」)에서 언제든 바꿀 수 있습니다.</li>
+<li class="sub">자세한 내용: Google 개인정보처리방침(<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>), Google의 파트너 사이트 데이터 사용 방식(<a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>).</li>
+</ul>
+
+<h2>3. 보관 기간과 파기</h2>
+<ul>
+<li>계정 번호·로그인 식별자·닉네임·게임 기록·저장 데이터·다이아 내역은 <strong>계정을 지울 때까지</strong> 보관하고, 지우면 곧바로 파기합니다.</li>
+<li>로그인 세션은 만료(최대 180일) 뒤, 로그인 일회용 코드는 2분 뒤, 요청 횟수 기록은 해당 시간 창(최대 하루)이 끝나면 정기 정리 작업이 지웁니다.</li>
+<li><strong>예외 — 스토어 결제 거래 기록</strong>: 계정을 지우면 거래 기록에서 계정 번호를 지워 누구의 거래인지 알 수 없게 하지만, 거래 번호·상품·가격·시각은 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 5년간 보관합니다. 같은 거래로 다이아가 다시 지급되거나 환불이 누락되는 것을 막는 데에도 씁니다.</li>
+<li>Google AdMob이 처리하는 정보는 Google 개인정보처리방침이 정한 기간 동안 보관됩니다.</li>
+<li>파기는 서버 데이터베이스에서 지우는 방식으로 하며, 복구할 수 없습니다.</li>
+</ul>
+
+<h2>4. 계정과 데이터 삭제 방법</h2>
+<ol>
+<li><strong>앱·웹에서 바로 지우기</strong>: 「설정 › 계정 › 서버 기록 지우기」. 확인하면 서버의 계정·로그인 연결·닉네임·게임 기록·저장 데이터·다이아(남은 유상 다이아 포함)가 즉시 지워지고, Apple 로그인은 연결도 해제합니다. 지운 뒤에는 되돌릴 수 없습니다.</li>
+<li><strong>메일로 요청하기</strong>: 앱을 지웠거나 화면을 열 수 없으면 <a href="mailto:kimjaejung96@gmail.com?subject=%EB%A7%90%EB%9E%91%EB%96%A1%20%EA%B3%84%EC%A0%95%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD">kimjaejung96@gmail.com</a>으로 「말랑떡 계정 삭제 요청」과 함께 닉네임(예: 말랑한떡#1234)이나 로그인한 방법을 보내 주세요. 본인 확인 뒤 7일 안에 지우고 회신합니다. 일부만(예: 순위 기록만) 지우기를 원하면 함께 적어 주세요.</li>
+<li><strong>기기 안 데이터</strong>: 앱을 삭제하거나 브라우저의 사이트 데이터를 지우면 기기에 남은 저장 데이터가 지워집니다. 서버 계정은 1번이나 2번으로 따로 지워야 합니다.</li>
+</ol>
+
+<h2>5. 처리 위탁과 국외 이전</h2>
+<p>운영자는 게임 운영을 위해 아래와 같이 개인정보 처리를 맡기며, 이 과정에서 개인정보가 국외로 이전됩니다(「개인정보 보호법」 제28조의8).</p>
+<ul>
+<li><strong>Cloudflare, Inc.</strong> (미국, <a href="https://www.cloudflare.com/privacypolicy/">https://www.cloudflare.com/privacypolicy/</a>)
+  <ul>
+  <li class="sub">맡기는 일: 게임 서버와 데이터베이스 운영(1장의 서버 저장 항목 전부)</li>
+  <li class="sub">이전 국가: 미국 등 Cloudflare가 데이터 센터를 운영하는 국가</li>
+  <li class="sub">이전 일시와 방법: 게임이 서버와 통신할 때마다 암호화된 네트워크(HTTPS)로 전송</li>
+  <li class="sub">보유 기간: 3장과 같음</li>
+  </ul></li>
+<li><strong>Google LLC</strong> (미국, 개인정보 문의 <a href="https://support.google.com/policies/contact/general_privacy_form">https://support.google.com/policies/contact/general_privacy_form</a>)
+  <ul>
+  <li class="sub">맡기는 일: 보상형 광고 제공(2장)</li>
+  <li class="sub">이전 항목: 2장의 처리하는 정보</li>
+  <li class="sub">이전 일시와 방법: 이용자가 광고를 볼 때 네트워크로 전송</li>
+  <li class="sub">보유 기간: Google 개인정보처리방침이 정한 기간</li>
+  </ul></li>
+<li><strong>거부 방법과 효과</strong>: 국외 이전을 원하지 않으면 계정을 지우고(4장) 광고를 누르지 않으면 됩니다. 이 경우 순위표·기기 간 동기화·광고 보상은 쓸 수 없고, 혼자 하는 게임은 그대로 할 수 있습니다.</li>
+</ul>
+<p class="sub">Apple·Google·카카오 로그인과 App Store·Google Play 결제는 이용자가 각 서비스와 직접 맺은 관계에 따라 그 회사가 처리하며, 각 회사의 개인정보처리방침이 적용됩니다.</p>
+
+<h2>6. 제3자 제공</h2>
+<p>운영자는 이용자의 개인정보를 제3자에게 팔거나 제공하지 않습니다. 순위표의 닉네임과 기록은 다른 이용자에게 공개됩니다. 법령에 따라 수사기관 등이 요청하는 경우는 예외입니다.</p>
+
+<h2>7. 아동의 개인정보</h2>
+<p>게임은 아동을 주 대상으로 하지 않습니다. 만 14세 미만 아동은 법정대리인의 동의 없이 소셜 로그인이나 결제를 하지 말아 주세요. 만 14세 미만 아동의 정보가 동의 없이 처리된 것을 알게 되면 지체 없이 지웁니다.</p>
+
+<h2>8. 안전성 확보 조치</h2>
+<ul>
+<li>서버와의 모든 통신을 HTTPS로 암호화합니다.</li>
+<li>로그인 유지 토큰과 일회용 코드는 해시값으로만 저장하고, IP 주소는 원문을 남기지 않습니다.</li>
+<li>서버와 데이터베이스 관리 권한은 운영자만 가지며, 관리 기능은 별도 비밀값으로 막아 둡니다.</li>
+</ul>
+
+<h2>9. 이용자의 권리</h2>
+<p>이용자(만 14세 미만은 법정대리인)는 언제든 개인정보의 열람·정정·삭제·처리정지를 요청할 수 있습니다. 닉네임은 「설정 › 계정 › 이름 바꾸기」에서, 삭제는 4장의 방법으로 할 수 있고, 그 밖의 요청은 아래 메일로 보내 주세요. 처리 결과에 이의가 있으면 개인정보침해신고센터(국번 없이 118, <a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a>), 개인정보분쟁조정위원회(1833-6972, <a href="https://www.kopico.go.kr">www.kopico.go.kr</a>)에 도움을 요청할 수 있습니다.</p>
+
+<h2>10. 개인정보 보호책임자와 문의</h2>
+<ul>
+<li>개인정보 보호책임자: 김재중</li>
+<li>이메일: <a href="mailto:kimjaejung96@gmail.com">kimjaejung96@gmail.com</a></li>
+</ul>
+
+<h2>11. 변경</h2>
+<p>이 방침이 바뀌면 시행 7일 전에 이 페이지에 알립니다. 이용자에게 불리한 변경은 30일 전에 알립니다.</p>
+</main></body></html>
